@@ -1,0 +1,18 @@
+enabled: true
+trackingId: UA-155983335-1
+position: head
+objectName: ga
+forceSsl: true
+async: false
+anonymizeIp: true
+blockedIpRanges:
+  - private
+  - loopback
+  - link-local
+blockingCookie: blockGA
+cookieConfig: false
+cookieName: _ga
+cookieExpires: 63072000
+optOutEnabled: false
+debugStatus: false
+debugTrace: false

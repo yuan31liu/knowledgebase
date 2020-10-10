@@ -1,0 +1,16 @@
+title: 'Ryan''s Knowledge Base'
+author:
+  name: 'Ryan Liu'
+  email: ryan__liu@outlook.com
+taxonomies: [category, tag, author]
+metadata:
+  description: 'This is Ryan''s website'
+summary:
+  enabled: true
+  format: short
+  size: 100
+  delimiter: '==='
+blog:
+  route: /blog
+
+  
