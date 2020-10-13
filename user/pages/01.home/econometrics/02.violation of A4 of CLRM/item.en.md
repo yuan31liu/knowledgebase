@@ -1,5 +1,5 @@
 ---
-title: 'violation of A4 of CLRM'
+title: 'Heteroskedaticity and Non-linear params'
 taxonomy:
     category:
         - econometrics

@@ -2,9 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/knowledgebase/user/config/site.yaml',
-    'modified' => 1597033523,
+    'modified' => 1602428488,
     'data' => [
-        'title' => 'Ryan\'s Knowledge Base',
+        'title' => 'Yuan\'s Knowledge Base',
+        'default_lang' => 'en',
         'author' => [
             'name' => 'Ryan Liu',
             'email' => 'ryan__liu@outlook.com'
@@ -15,7 +16,7 @@ return [
             2 => 'author'
         ],
         'metadata' => [
-            'description' => 'This is Ryan\'s website'
+            'description' => 'This is my knowledge base.'
         ],
         'summary' => [
             'enabled' => true,
@@ -23,6 +24,8 @@ return [
             'size' => 100,
             'delimiter' => '==='
         ],
+        'redirects' => NULL,
+        'routes' => NULL,
         'blog' => [
             'route' => '/blog'
         ]

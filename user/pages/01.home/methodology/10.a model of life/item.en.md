@@ -1,5 +1,5 @@
 ---
-title: 'A model of life'
+title: 'An input-output model of life'
 taxonomy:
     category:
         - methodology

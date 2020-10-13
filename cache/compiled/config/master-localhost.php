@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1602357316,
-    'checksum' => 'af4c8e05c9cce9e5ed27c9251a118c00',
+    'timestamp' => 1602441484,
+    'checksum' => '8bddccf3aee057c536a8b0fa291efbaf',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -75,7 +75,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1597033523
+                'modified' => 1602428488
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -83,7 +83,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1602357006
+                'modified' => 1602441484
             ]
         ],
         'system/config' => [
@@ -1117,7 +1117,7 @@ node_modules'
             'salt' => 'ifsYlwj4xh6c7p'
         ],
         'site' => [
-            'title' => 'Ryan\'s Knowledge Base',
+            'title' => 'Yuan\'s Knowledge Base',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Ryan Liu',
@@ -1129,7 +1129,7 @@ node_modules'
                 2 => 'author'
             ],
             'metadata' => [
-                'description' => 'This is Ryan\'s website'
+                'description' => 'This is my knowledge base.'
             ],
             'summary' => [
                 'enabled' => true,
@@ -1168,14 +1168,14 @@ node_modules'
         ],
         'system' => [
             'absolute_urls' => false,
-            'timezone' => '',
+            'timezone' => NULL,
             'default_locale' => NULL,
             'param_sep' => ':',
             'wrapped_site' => false,
             'reverse_proxy_setup' => false,
             'force_ssl' => false,
             'force_lowercase_urls' => true,
-            'custom_base_url' => '',
+            'custom_base_url' => NULL,
             'username_regex' => '^[a-z0-9_-]{3,16}$',
             'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
             'intl_enabled' => true,
@@ -1208,7 +1208,7 @@ node_modules'
                 'theme' => 'knowledge-base',
                 'order' => [
                     'by' => 'date',
-                    'dir' => 'asc'
+                    'dir' => 'desc'
                 ],
                 'list' => [
                     'count' => 20
@@ -1255,7 +1255,7 @@ node_modules'
                     5 => 'rss',
                     6 => 'atom'
                 ],
-                'append_url_extension' => '',
+                'append_url_extension' => NULL,
                 'expires' => 604800,
                 'cache_control' => NULL,
                 'last_modified' => false,
@@ -1298,7 +1298,18 @@ node_modules'
                 'gzip' => false,
                 'allow_webserver_gzip' => false,
                 'redis' => [
-                    'socket' => false
+                    'socket' => NULL,
+                    'server' => NULL,
+                    'port' => NULL,
+                    'password' => NULL
+                ],
+                'memcache' => [
+                    'server' => NULL,
+                    'port' => NULL
+                ],
+                'memcached' => [
+                    'server' => NULL,
+                    'port' => NULL
                 ]
             ],
             'twig' => [
@@ -1353,12 +1364,8 @@ node_modules'
             ],
             'media' => [
                 'enable_media_timestamp' => false,
-                'unsupported_inline_types' => [
-                    
-                ],
-                'allowed_fallback_types' => [
-                    
-                ],
+                'unsupported_inline_types' => NULL,
+                'allowed_fallback_types' => NULL,
                 'auto_metadata_exif' => false,
                 'upload_limit' => 8388608
             ],

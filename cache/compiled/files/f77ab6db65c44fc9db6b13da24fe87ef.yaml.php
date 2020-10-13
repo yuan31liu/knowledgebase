@@ -1,0 +1,33 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/Applications/MAMP/htdocs/knowledgebase/user/accounts/ryan.yaml',
+    'modified' => 1575696913,
+    'data' => [
+        'state' => 'enabled',
+        'email' => 'ryan__liu@outlook.com',
+        'fullname' => 'Ryan Liu',
+        'title' => 'Admin',
+        'access' => [
+            'admin' => [
+                'super' => 'true',
+                'login' => 'true'
+            ],
+            'site' => [
+                'login' => 'true'
+            ]
+        ],
+        'hashed_password' => '$2y$10$kDyxCGYrVoquTcUYS9GvwOXzA85EphM3.JDvneQBjiRk1AwdjBEZq',
+        'language' => 'en',
+        'twofa_enabled' => false,
+        'twofa_secret' => 'F4TNQMRAFK2RQZ34VFQOZHWJQPBHICKT',
+        'avatar' => [
+            'user/accounts/avatars/LicBTmdPUzMOul0.png' => [
+                'name' => 'LicBTmdPUzMOul0.png',
+                'type' => 'image/png',
+                'size' => 205407,
+                'path' => 'user/accounts/avatars/LicBTmdPUzMOul0.png'
+            ]
+        ]
+    ]
+];

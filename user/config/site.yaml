@@ -1,16 +1,20 @@
-title: 'Ryan''s Knowledge Base'
+title: 'Yuan''s Knowledge Base'
+default_lang: en
 author:
   name: 'Ryan Liu'
   email: ryan__liu@outlook.com
-taxonomies: [category, tag, author]
+taxonomies:
+  - category
+  - tag
+  - author
 metadata:
-  description: 'This is Ryan''s website'
+  description: 'This is my knowledge base.'
 summary:
   enabled: true
   format: short
   size: 100
   delimiter: '==='
+redirects: null
+routes: null
 blog:
   route: /blog
-
-  
